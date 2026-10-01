@@ -36,6 +36,9 @@ follow the guide and no. the one thing that really bricks a xiaomi is relocking 
 **updates inside the rom?**
 no. new builds land on the [releases page](https://github.com/once-human/pixelos-sky/releases). hit **watch > custom > releases** on this repo to get pinged, then follow [updating](updating.md).
 
+**about phone shows a different build number than the zip?**
+that's normal. the zip `17.0-20260930-1940` shows up as `PixelOS_sky-17.0-20261001-0646` in settings > about phone > android version. same build.
+
 **update without losing data?**
 yes, [updating](updating.md).
 

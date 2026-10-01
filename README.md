@@ -31,7 +31,18 @@ unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 
 
 ## screenshots
 
-[see them all](screenshots/17)
+<p align="center">
+  <img src="screenshots/17/1-lockscreen.png" width="200">
+  <img src="screenshots/17/2-home.png" width="200">
+  <img src="screenshots/17/3-quick-settings.png" width="200">
+</p>
+<p align="center">
+  <img src="screenshots/17/4-app-drawer.png" width="200">
+  <img src="screenshots/17/5-settings.png" width="200">
+  <img src="screenshots/17/6-android-version.png" width="200">
+</p>
+
+[all screenshots](screenshots/17)
 
 ## quick install
 
@@ -75,7 +86,7 @@ recovery instead? [sideload guide](docs/install-recovery.md). already on this ro
 pixelos-sky/
 ├── docs/              all guides
 ├── releases/17/       release notes, one file per monthly build (2026-10 = october)
-├── screenshots/17/    screenshots of pixelos 17
+├── screenshots/17/    screenshots of pixelos 17, numbered in the order they show up
 ├── CHANGELOG.md       what changed, build by build
 └── CREDITS.md         the people behind this rom
 ```

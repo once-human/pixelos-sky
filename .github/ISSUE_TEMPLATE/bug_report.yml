@@ -11,8 +11,8 @@ body:
     id: build
     attributes:
       label: build
-      description: the build you're on (settings > about phone, or the zip name)
-      placeholder: 17.0-20260930-1940
+      description: settings > about phone > android version > build number
+      placeholder: PixelOS_sky-17.0-20261001-0646
     validations:
       required: true
   - type: dropdown

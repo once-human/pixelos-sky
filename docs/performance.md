@@ -23,6 +23,6 @@ build `17.0-20260930-1940`
 geekbench 7.1.0, antutu v12.0.1. the antutu gpu test ran in its lite mode, so that number isn't comparable with full gpu runs.
 
 <p align="center">
-  <img src="../screenshots/17/geekbench-7.png" width="260">
-  <img src="../screenshots/17/antutu-12.png" width="260">
+  <img src="../screenshots/17/7-geekbench.png" width="260">
+  <img src="../screenshots/17/8-antutu.png" width="260">
 </p>

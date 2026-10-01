@@ -34,7 +34,7 @@ adb bugreport bugreport.zip
 
 | | example |
 |---|---|
-| build | `17.0-20260930-1940` |
+| build | settings > about phone > android version > build number |
 | phone | poco m6 pro 5g |
 | firmware before install | OS2.0.210 global |
 | install method | fastboot, clean install |

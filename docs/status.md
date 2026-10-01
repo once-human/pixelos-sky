@@ -13,23 +13,23 @@ status for the latest build, `17.0-20260930-1940`.
 
 | feature | status | notes |
 |---|---|---|
-| display, touch, brightness | ? | |
-| wifi | ? | |
+| display, touch, brightness | yes | |
+| wifi | yes | |
 | hotspot | ? | |
-| bluetooth | ? | |
+| bluetooth | yes | |
 | calls, sms | ? | |
 | mobile data, 5g | ? | |
 | volte, vowifi | ? | |
 | dual sim | ? | |
-| camera | ? | |
+| camera | yes | |
 | fingerprint | ? | |
-| speaker, mic, earpiece | ? | |
-| headphones | ? | |
-| vibration | ? | |
-| gps | ? | |
-| sensors (rotation, proximity, light) | ? | |
+| speaker, mic | yes | |
+| earpiece, headphones | ? | |
+| vibration | ? | can't test, my test phone's vibration motor is dead on every rom |
+| gps | yes | |
+| sensors (rotation, proximity, light) | yes | |
 | ir blaster | ? | |
-| usb (file transfer, charging) | ? | |
+| usb (file transfer, charging) | yes | |
 | encryption | yes | |
 | selinux | yes | enforcing |
 
