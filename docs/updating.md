@@ -1,24 +1,24 @@
 # updating
 
-new build out and you're already on this rom? you can update without losing anything. every build is signed with the same keys, so updates go straight over the top.
+new build out and you're already on this rom? update without losing anything.
 
-## pick one
-
-| method | command / steps | data |
+| method | how | data |
 |---|---|---|
-| **fastboot** | phone in fastboot mode, then `fastboot update PixelOS_sky-<new version>-fastboot.zip` (no `-w`!) | kept |
-| **recovery** | boot recovery > adb sideload > `adb sideload PixelOS_sky-<new version>.zip`, **no format data** | kept |
+| **fastboot** | fastboot mode, then `fastboot update PixelOS_sky-<new version>-fastboot.zip` (no `-w`) | kept |
+| **recovery** | recovery > adb sideload > `adb sideload PixelOS_sky-<new version>.zip` (no format data) | kept |
 
-that's it. the first boot after an update is a bit slower than usual.
+first boot after an update is a bit slower than usual.
 
-## when to do a clean install instead
+## clean install instead when
 
-| situation | do this |
+| | |
 |---|---|
-| the release notes say "clean flash required" | clean install ([fastboot](install-fastboot.md) with `-w`, or format data in recovery) |
+| the release notes say "clean flash required" | clean install |
 | coming from a different rom, even another pixelos build | clean install |
-| something's broken after the update | try a clean install before reporting it |
+| something's broken after updating | try a clean install before reporting |
 
-## don't miss new builds
+clean install = [fastboot](install-fastboot.md) with `-w`, or format data in [recovery](install-recovery.md).
 
-on the repo page hit **watch > custom > releases**. github will ping you when a new build drops.
+## get notified
+
+on the repo page: **watch > custom > releases**. github pings you when a new build drops.

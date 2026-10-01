@@ -1,7 +1,9 @@
 # releases
 
-release notes for every build, same text as on the [releases page](https://github.com/once-human/pixelos-sky/releases). downloads are linked inside each file.
+one file per build, grouped by android version. same notes as the [releases page](https://github.com/once-human/pixelos-sky/releases).
 
-| build | android | date | notes |
+## pixelos 17
+
+| month | build | notes | files |
 |---|---|---|---|
-| `17.0-20260930-1940` | 17 | 2026-09-30 | [notes](17.0-20260930-1940.md) |
+| 2026-09 | `17.0-20260930-1940` | [notes](17/2026-09.md) | [sourceforge](https://sourceforge.net/projects/pixelos-sky/files/17/2026-09/) |

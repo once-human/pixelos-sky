@@ -1,17 +1,16 @@
 # building
 
-everything needed to build this rom is public. the local manifest pins every device repo to the exact commit the release was built from.
+everything's public. the manifest pins every device repo to the exact commit of the latest release.
 
 ## what you need
 
 | | |
 |---|---|
 | os | linux (ubuntu 22.04+ or similar) |
-| disk | ~400 gb free, ssd strongly recommended |
-| ram | 32 gb+ (or 16 gb with a big swap, slow) |
-| time | a few hours for the first build |
+| disk | ~400 gb free, ssd |
+| ram | 32 gb+ |
 
-standard aosp build dependencies apply. if you've built any android rom before, you're set.
+usual aosp build dependencies.
 
 ## build
 
@@ -39,12 +38,6 @@ m pixelos
 | `hardware/dolby` | [anonytry/hardware_dolby](https://github.com/anonytry/hardware_dolby) |
 | `vendor/qcom/opensource/vibrator` | [anonytry/android_vendor_qcom_opensource_vibrator](https://github.com/anonytry/android_vendor_qcom_opensource_vibrator) |
 
-## signing
+your own build is signed with your own keys, so it won't update over the releases here. that's expected.
 
-release builds are signed with private keys that never leave the build machine. if you build it yourself, generate your own keys (or build with test keys). your build won't update over the official releases here and that's expected, different keys.
-
-## the all in one script
-
-[`build_pixelos17_sky.sh`](https://github.com/once-human/local_manifests/blob/seventeen/scripts/build_pixelos17_sky.sh) is the script the first release was built with. it syncs, builds, signs, verifies and packages the fastboot and recovery zips. the fastboot zip packaging needs [`fix_super_empty.py`](https://github.com/once-human/local_manifests/blob/seventeen/scripts/fix_super_empty.py), which makes `fastboot update` flash super in one step.
-
-for a plain build, the manifest above is all you need.
+the [build script](https://github.com/once-human/local_manifests/blob/seventeen/scripts/build_pixelos17_sky.sh) used for releases also packages the fastboot and recovery zips.

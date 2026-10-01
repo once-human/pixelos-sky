@@ -1,24 +1,24 @@
 # install with recovery
 
-for people who already use orangefox. if you don't have a custom recovery, just use [fastboot](install-fastboot.md), it's easier.
+for orangefox users. no custom recovery? use [fastboot](install-fastboot.md), it's easier.
 
-tested with orangefox ([altafyafai's ofrp build](https://github.com/AltafYafai/Action-OFRP-Builder/releases/tag/25638699166)).
+tested with orangefox ([altafyafai's build](https://github.com/AltafYafai/Action-OFRP-Builder/releases/tag/25638699166)).
 
-> haven't read [before you start](before-you-start.md)? do that first.
+> first time? read [before you start](before-you-start.md).
 
 ## what you need
 
 | | |
 |---|---|
-| a custom recovery on the phone | orangefox, linked above |
-| adb on your pc | comes with platform-tools, see [install with fastboot](install-fastboot.md#1-get-platform-tools-35-or-newer) step 1 |
-| the recovery zip | `PixelOS_sky-<version>.zip` (the one **without** `-fastboot` in the name) from the [latest release](https://github.com/once-human/pixelos-sky/releases/latest) |
+| orangefox on the phone | linked above |
+| adb on your pc | part of platform-tools, see [fastboot guide step 1](install-fastboot.md#1-get-platform-tools-35-or-newer) |
+| the recovery zip | `PixelOS_sky-<version>.zip` (the one **without** `-fastboot`) from the [latest release](https://github.com/once-human/pixelos-sky/releases/latest) |
 
 ## steps
 
-1. boot into recovery (phone off, hold **power + volume up**)
-2. **clean install only:** wipe > **format data** (type `yes` when it asks). coming from stock or another rom, you need this
-3. go to **adb sideload** and start it
+1. boot into recovery: phone off, hold **power + volume up**
+2. **clean install only:** wipe > **format data**, type `yes`
+3. open **adb sideload** and start it
 
 <!-- ![orangefox sideload](images/orangefox-sideload.jpg) -->
 
@@ -28,13 +28,13 @@ tested with orangefox ([altafyafai's ofrp build](https://github.com/AltafYafai/A
 adb sideload PixelOS_sky-<version>.zip
 ```
 
-5. wait for it to finish. the pc side sometimes stops early (like at 47%), that's normal as long as the phone says it's done
+5. wait till the phone says it's done. the pc side sometimes stops early (like 47%), that's fine
 6. reboot to system. first boot takes **5 to 10 minutes**
 
-## updating with recovery
+## updating
 
-already on this rom? same steps but **skip format data**. your stuff stays. more in [updating](updating.md).
+already on this rom? same steps, **skip format data**. more in [updating](updating.md).
 
-## good to know
+## orangefox after install
 
-flashing the rom also flashes its own recovery (on this phone the recovery lives inside the boot images). so after the first boot your orangefox is probably gone. if you want it back, flash it again the way you did before.
+the rom comes with its own recovery, so orangefox may be replaced after flashing. want it back? flash it again the way you did before.

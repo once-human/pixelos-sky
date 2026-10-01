@@ -1,19 +1,19 @@
 # docs
 
-pick what you need. if it's your first time, go top to bottom through the first three.
+first time? go through **start** and **install** in order.
 
-| # | page | when |
+| | page | when |
 |---|---|---|
-| 1 | [before you start](before-you-start.md) | always, takes 2 minutes |
-| 2 | [firmware](firmware.md) | not sure what's on your phone right now |
-| 3 | [install with fastboot](install-fastboot.md) | first install, recommended |
-| 3b | [install with recovery](install-recovery.md) | you'd rather use orangefox |
-| 4 | [updating](updating.md) | a new build is out and you're already on this rom |
-| | [what works](status.md) | device status and known issues |
+| **start** | [before you start](before-you-start.md) | always, takes 2 minutes |
+| | [unlock the bootloader](unlock-bootloader.md) | your bootloader is still locked |
+| | [firmware](firmware.md) | not sure what's on your phone |
+| | [downloads](downloads.md) | which file to grab and where |
+| **install** | [fastboot](install-fastboot.md) | recommended |
+| | [recovery](install-recovery.md) | you use orangefox |
+| | [updating](updating.md) | new build is out, keep your data |
+| **help** | [what works](status.md) | status and known issues |
 | | [troubleshooting](troubleshooting.md) | something went wrong |
-| | [faq](faq.md) | root, ota, banking apps etc |
+| | [faq](faq.md) | root, updates, banking apps |
 | | [reporting bugs](bug-reports.md) | found a bug |
-| | [back to stock](back-to-stock.md) | leaving the rom |
+| **other** | [back to stock](back-to-stock.md) | leaving the rom |
 | | [building](building.md) | building from source |
-
-guide pictures live in [images/](images/).

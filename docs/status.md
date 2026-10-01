@@ -1,8 +1,8 @@
 # what works
 
-status for build `17.0-20260930-1940`.
+status for the latest build, `17.0-20260930-1940`.
 
-| key | meaning |
+| | |
 |---|---|
 | yes | works |
 | partly | works with a catch, see notes |
@@ -13,7 +13,6 @@ status for build `17.0-20260930-1940`.
 
 | feature | status | notes |
 |---|---|---|
-| boots | yes | fastboot and recovery installs both tested |
 | display, touch, brightness | ? | |
 | wifi | ? | |
 | hotspot | ? | |
@@ -33,8 +32,9 @@ status for build `17.0-20260930-1940`.
 | usb (file transfer, charging) | ? | |
 | encryption | yes | |
 | selinux | yes | enforcing |
-| performance | yes | full cpu clocks, geekbench 810 single / 2093 multi |
+
+geekbench: 810 single core, 2093 multi core.
 
 ## known issues
 
-none confirmed yet. found one? [report it](bug-reports.md) and it'll get listed here.
+none confirmed yet. found one? [report it](bug-reports.md).

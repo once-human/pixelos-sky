@@ -1,21 +1,16 @@
 # changelog
 
-newest on top. full notes for each build are in [releases/](releases/).
+newest on top.
 
-## 17.0-20260930-1940
+## pixelos 17
 
-first public build.
+### 2026-09 | `17.0-20260930-1940`
 
-**rom**
+first public build. [notes](releases/17/2026-09.md)
+
 - pixelos 17 (android 17)
-- user build, signed with private keys, selinux enforcing, encrypted
-- linux 5.10.260 kernel, built from source
-- install with fastboot (one command) or recovery sideload
-
-**device**
-- based on topexguy's android 17 sky trees
-- fingerprint hal no longer crashes when it can't find a sensor module
-- goodix and fpc fingerprint folders get created at boot
-- selinux fixes for dms, thermal, radio and wifi services
-
-[release notes](releases/17.0-20260930-1940.md)
+- user build, signed, selinux enforcing
+- kernel 5.10.260
+- fastboot and recovery install
+- fingerprint fixes
+- selinux fixes for radio, wifi and thermal
