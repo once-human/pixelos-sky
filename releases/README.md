@@ -6,4 +6,4 @@ one file per build, grouped by android version. same notes as the [releases page
 
 | month | build | notes | files |
 |---|---|---|---|
-| 2026-09 | `17.0-20260930-1940` | [notes](17/2026-09.md) | [sourceforge](https://sourceforge.net/projects/pixelos-sky/files/17/2026-09/) |
+| 2026-10 | `17.0-20260930-1940` | [notes](17/2026-10.md) | [sourceforge](https://sourceforge.net/projects/pixelos-sky/files/17/2026-10/) |

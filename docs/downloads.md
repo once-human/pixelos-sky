@@ -21,13 +21,13 @@ you only need one of the two zips.
 ```
 pixelos-sky/
 └── 17/                  pixelos 17 (android 17)
-    └── 2026-09/         one folder per monthly build
+    └── 2026-10/         one folder per monthly build
         ├── PixelOS_sky-17.0-20260930-1940-fastboot.zip
         ├── PixelOS_sky-17.0-20260930-1940.zip
         └── SHA256SUMS
 ```
 
-same names everywhere: the sourceforge folder `17/2026-09` has its notes in [releases/17/2026-09.md](../releases/17/2026-09.md) and its own [release](https://github.com/once-human/pixelos-sky/releases) on github.
+same names everywhere: the sourceforge folder `17/2026-10` has its notes in [releases/17/2026-10.md](../releases/17/2026-10.md) and its own [release](https://github.com/once-human/pixelos-sky/releases) on github.
 
 ## check your download
 
