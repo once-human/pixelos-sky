@@ -1,0 +1,87 @@
+name: bug report
+description: something broken in the rom
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        thanks for reporting. please check [known issues](https://github.com/once-human/pixelos-sky/blob/main/docs/status.md#known-issues) and [existing issues](https://github.com/once-human/pixelos-sky/issues) first.
+        not sure how to grab logs? [here's how](https://github.com/once-human/pixelos-sky/blob/main/docs/bug-reports.md).
+  - type: input
+    id: build
+    attributes:
+      label: build
+      description: the build you're on (settings > about phone, or the zip name)
+      placeholder: 17.0-20260930-1940
+    validations:
+      required: true
+  - type: dropdown
+    id: phone
+    attributes:
+      label: phone
+      options:
+        - redmi 12 5g
+        - poco m6 pro 5g
+        - redmi note 12r
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: firmware before install
+      description: the hyperos version your phone was on before flashing
+      placeholder: OS2.0.210 global
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: how did you install
+      options:
+        - fastboot, clean install (-w)
+        - fastboot, update
+        - recovery, clean install (format data)
+        - recovery, update
+    validations:
+      required: true
+  - type: dropdown
+    id: mods
+    attributes:
+      label: root or mods
+      options:
+        - none
+        - magisk / other root
+        - magisk modules or other mods
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: what happens
+      description: what's broken, and what you expected instead
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: steps to reproduce
+      placeholder: |
+        1. open camera
+        2. switch to video
+        3. app closes
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: logs
+      description: drag and drop logcat.txt or bugreport.zip here. reports without logs are hard to fix
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: checks
+      options:
+        - label: i read the troubleshooting page and the known issues
+          required: true
+        - label: this is about this rom, not stock hyperos or another rom
+          required: true

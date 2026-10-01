@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: install help
+    url: https://github.com/once-human/pixelos-sky/blob/main/docs/troubleshooting.md
+    about: stuck while flashing? most problems are covered here
+  - name: faq
+    url: https://github.com/once-human/pixelos-sky/blob/main/docs/faq.md
+    about: root, ota, banking apps and other common questions
