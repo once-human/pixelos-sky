@@ -7,8 +7,7 @@ this rom exists because of these people.
 | who | what |
 |---|---|
 | [topexguy](https://github.com/topexguy) | android 17 device tree, vendor and kernel for sky, the base of this rom |
-| lostark13 | original sky device tree |
-| mo_faza, mr_agness | sky bring up |
+| lostark13 | base sky device tree |
 | [anonytry](https://github.com/anonytry) | hardware, dolby and vibrator |
 
 ## help
@@ -16,7 +15,6 @@ this rom exists because of these people.
 | who | what |
 |---|---|
 | [jendermine](https://github.com/jendermine) | guidance, former pixelos maintainer for sky |
-| [altafyafai](https://github.com/AltafYafai) | the orangefox build used for testing |
 
 ## projects
 

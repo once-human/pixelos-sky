@@ -103,7 +103,7 @@ pixelos-sky/
 
 ## credits
 
-huge thanks to [topexguy](https://github.com/topexguy), lostark13, mo_faza, mr_agness, [anonytry](https://github.com/anonytry), [jendermine](https://github.com/jendermine) and the pixelos and lineageos teams. who did what: [CREDITS.md](CREDITS.md)
+huge thanks to [topexguy](https://github.com/topexguy), lostark13, [anonytry](https://github.com/anonytry), [jendermine](https://github.com/jendermine) and the pixelos and lineageos teams. who did what: [CREDITS.md](CREDITS.md)
 
 ## heads up
 
