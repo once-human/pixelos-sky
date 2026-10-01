@@ -10,8 +10,8 @@ every build comes with three files:
 
 | file | what it is |
 |---|---|
-| `PixelOS_sky-<version>-fastboot.zip` | for [fastboot](install-fastboot.md). **grab this one if unsure** |
-| `PixelOS_sky-<version>.zip` | for [recovery](install-recovery.md) |
+| `PixelOS_sky-<version>-fastboot.zip` | for [fastboot](install-fastboot.md) only, recovery can't flash it. **grab this one if unsure** |
+| `PixelOS_sky-<version>.zip` | for [recovery](install-recovery.md) only |
 | `SHA256SUMS` | checksums, to make sure your download isn't broken |
 
 you only need one of the two zips.

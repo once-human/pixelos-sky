@@ -12,7 +12,7 @@ tested with orangefox ([altafyafai's build](https://github.com/AltafYafai/Action
 |---|---|
 | orangefox on the phone | linked above |
 | adb on your pc | part of platform-tools, see [fastboot guide step 1](install-fastboot.md#1-get-platform-tools-35-or-newer) |
-| the recovery zip | `PixelOS_sky-<version>.zip` (the one **without** `-fastboot`) from the [latest release](https://github.com/once-human/pixelos-sky/releases/latest) |
+| the recovery zip | `PixelOS_sky-<version>.zip` (the one **without** `-fastboot`) from the [latest release](https://github.com/once-human/pixelos-sky/releases/latest). the `-fastboot` zip won't flash in recovery |
 
 ## steps
 
