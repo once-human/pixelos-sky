@@ -14,6 +14,7 @@ first time? go through **start** and **install** in order.
 | **help** | [what works](status.md) | status and known issues |
 | | [troubleshooting](troubleshooting.md) | something went wrong |
 | | [faq](faq.md) | root, updates, banking apps |
+| | [performance](performance.md) | benchmarks |
 | | [reporting bugs](bug-reports.md) | found a bug |
 | **other** | [back to stock](back-to-stock.md) | leaving the rom |
 | | [building](building.md) | building from source |

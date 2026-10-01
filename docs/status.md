@@ -33,7 +33,7 @@ status for the latest build, `17.0-20260930-1940`.
 | encryption | yes | |
 | selinux | yes | enforcing |
 
-geekbench: 810 single core, 2093 multi core.
+benchmarks: [performance](performance.md).
 
 ## known issues
 

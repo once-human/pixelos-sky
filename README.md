@@ -26,6 +26,7 @@ unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 
 | **firmware** | stock hyperos 2 ([details](docs/firmware.md)) |
 | **install** | fastboot or recovery |
 | **google apps** | included |
+| **benchmarks** | geekbench 7: 810 / 2093, antutu 12: 685k ([details](docs/performance.md)) |
 | **maintainer** | [once-human](https://github.com/once-human) |
 
 ## screenshots
@@ -43,7 +44,7 @@ unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 
   <img src="screenshots/17/05-about-phone.png" width="200">
   <img src="screenshots/17/06-wallpaper-styles.png" width="200">
   <img src="screenshots/17/07-camera.png" width="200">
-  <img src="screenshots/17/08-geekbench.png" width="200">
+  <img src="screenshots/17/08-recents.png" width="200">
 </p>
 -->
 
@@ -80,6 +81,7 @@ recovery instead? [sideload guide](docs/install-recovery.md). already on this ro
 | **help** | [what works](docs/status.md) | status and known issues |
 | | [troubleshooting](docs/troubleshooting.md) | stuck somewhere |
 | | [faq](docs/faq.md) | root, updates, banking apps |
+| | [performance](docs/performance.md) | benchmarks, build by build |
 | | [reporting bugs](docs/bug-reports.md) | logs and what to include |
 | **other** | [back to stock](docs/back-to-stock.md) | going back to hyperos |
 | | [building](docs/building.md) | build it yourself |
@@ -90,7 +92,7 @@ recovery instead? [sideload guide](docs/install-recovery.md). already on this ro
 pixelos-sky/
 ├── docs/              all guides
 ├── releases/17/       release notes, one file per monthly build
-├── screenshots/17/    screenshots of pixelos 17
+├── screenshots/17/    screenshots and benchmarks of pixelos 17
 ├── CHANGELOG.md       what changed, build by build
 └── CREDITS.md         the people behind this rom
 ```
