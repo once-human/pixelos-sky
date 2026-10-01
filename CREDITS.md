@@ -15,6 +15,7 @@ this rom exists because of these people.
 | who | what |
 |---|---|
 | [jendermine](https://github.com/jendermine) | guidance, former pixelos maintainer for sky |
+| [altafyafai](https://github.com/AltafYafai) | the orangefox build used for testing |
 
 ## projects
 
