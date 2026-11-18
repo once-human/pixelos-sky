@@ -8,7 +8,7 @@ newest on top.
 
 not released yet. built from [local_manifests](https://github.com/once-human/local_manifests) `seventeen`.
 
-- linux 6.6 "nimbus" kernel (was 5.10), qualcomm walt scheduler kept for battery
+- linux 6.6 kernel (`-onkar`) (was 5.10), qualcomm walt scheduler kept for battery
 - new device trees (lineageos-style sm4450 6.6 bring-up), hyperos 3 common blobs, sky os2.0.210 blobs and firmware
 - zram lz4 with zstd recompression, mglru, tuned dalvik heap and lmk, settings/systemui compiled ahead of time
 - faster boot, tcp bbr, lazy rcu
