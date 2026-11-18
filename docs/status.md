@@ -1,6 +1,6 @@
 # what works
 
-status for the latest build, `17.0-20260930-1940`.
+status for the latest build, `17.0-20261118-2214` (linux 6.6). no sim in my test phone, so calls and data are untested.
 
 | | |
 |---|---|
@@ -13,7 +13,8 @@ status for the latest build, `17.0-20260930-1940`.
 
 | feature | status | notes |
 |---|---|---|
-| display, touch, brightness | yes | |
+| display, touch, brightness | yes | 90 hz |
+| navigation (3-button, gestures, back gesture) | yes | |
 | wifi | yes | |
 | hotspot | ? | |
 | bluetooth | yes | |
@@ -25,7 +26,7 @@ status for the latest build, `17.0-20260930-1940`.
 | fingerprint | ? | |
 | speaker, mic | yes | |
 | earpiece, headphones | ? | |
-| vibration | ? | can't test, my test phone's vibration motor is dead on every rom |
+| vibration | yes | fixed in the november build |
 | gps | yes | |
 | sensors (rotation, proximity, light) | yes | |
 | ir blaster | ? | |
@@ -37,4 +38,7 @@ benchmarks: [performance](performance.md).
 
 ## known issues
 
-none confirmed yet. found one? [report it](bug-reports.md).
+- coming from the october (5.10) build needs a clean install
+- the vibration can be missed once or twice in the first minute after boot
+
+found something else? [report it](bug-reports.md).

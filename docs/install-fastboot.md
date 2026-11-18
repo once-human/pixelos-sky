@@ -59,7 +59,7 @@ open a terminal in the folder with the zip:
 with the real file name, for example:
 
 ```bash
-fastboot -w update PixelOS_sky-17.0-20260930-1940-fastboot.zip
+fastboot -w update PixelOS_sky-17.0-20261118-2214-fastboot.zip
 ```
 
 **windows:** in powershell inside the platform-tools folder, use `.\fastboot` instead of `fastboot`, and put the zip in that same folder.

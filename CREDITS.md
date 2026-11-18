@@ -6,8 +6,8 @@ this rom exists because of these people.
 
 | who | what |
 |---|---|
-| venkat and the [xiaomi-ravelin](https://github.com/xiaomi-ravelin) team | the sm4450 linux 6.6 lineageos bring-up: device trees, the base since the november build |
-| suvojeet | the 6.6 kernel the kernel is built on |
+| venkat and the [xiaomi-ravelin](https://github.com/xiaomi-ravelin) team | the sm4450 linux 6.6 bring-up: device trees, kernel, modules and devicetrees, the base since the november build |
+| suvojeet | 6.6 kernel updates (6.6.144, qualcomm merges, battery and clock fixes) and modules |
 | [topexguy](https://github.com/topexguy) | android 17 device tree, vendor and kernel for sky (the october build), kernel watchdog and network fixes |
 | moinator856 | kernel panic logging (ramoops) |
 | lostark13 | base sky device tree |

@@ -6,12 +6,13 @@
 
 ## which file
 
-every build comes with three files:
+every build comes with these files:
 
 | file | what it is |
 |---|---|
 | `PixelOS_sky-<version>-fastboot.zip` | for [fastboot](install-fastboot.md). **grab this one if unsure** |
-| `PixelOS_sky-<version>.zip` | for [recovery](install-recovery.md) |
+| `PixelOS_sky-<version>.zip` | for [recovery](install-recovery.md), also what the updater app downloads |
+| `PixelOS_sky-<version>-recovery.img` | pixelos recovery, optional (from the november build) |
 | `SHA256SUMS` | checksums, to make sure your download isn't broken |
 
 you only need one of the two zips.
@@ -21,13 +22,15 @@ you only need one of the two zips.
 ```
 pixelos-sky/
 └── 17/                  pixelos 17 (android 17)
-    └── 2026-10/         one folder per monthly build
-        ├── PixelOS_sky-17.0-20260930-1940-fastboot.zip
-        ├── PixelOS_sky-17.0-20260930-1940.zip
+    ├── 2026-10/         one folder per monthly build
+    └── 2026-11/
+        ├── PixelOS_sky-17.0-20261118-2214-fastboot.zip
+        ├── PixelOS_sky-17.0-20261118-2214.zip
+        ├── PixelOS_sky-17.0-20261118-2214-recovery.img
         └── SHA256SUMS
 ```
 
-same names everywhere: the sourceforge folder `17/2026-10` has its notes in [releases/17/2026-10.md](../releases/17/2026-10.md) and its own [release](https://github.com/once-human/pixelos-sky/releases) on github.
+same names everywhere: the sourceforge folder `17/2026-11` has its notes in [releases/17/2026-11.md](../releases/17/2026-11.md) and its own [release](https://github.com/once-human/pixelos-sky/releases) on github.
 
 ## check your download
 

@@ -4,10 +4,13 @@ new build out and you're already on this rom? update without losing anything.
 
 | method | how | data |
 |---|---|---|
+| **updater** (easiest, november build and newer) | settings > system > updater > check for updates > download > install, then reboot | kept |
 | **fastboot** | fastboot mode, then `fastboot update PixelOS_sky-<new version>-fastboot.zip` (no `-w`) | kept |
 | **recovery** | recovery > adb sideload > `adb sideload PixelOS_sky-<new version>.zip` (no format data) | kept |
 
 first boot after an update is a bit slower than usual.
+
+on the october (5.10) build? the updater isn't there yet, and the november build needs a clean install anyway.
 
 ## clean install instead when
 

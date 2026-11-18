@@ -19,14 +19,14 @@ unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 
 | | |
 |---|---|
 | **rom** | pixelos 17 (android 17) |
-| **build** | `17.0-20260930-1940` |
+| **build** | `17.0-20261118-2214` |
 | **devices** | redmi 12 5g, poco m6 pro 5g, redmi note 12r (`sky`), any region |
 | **type** | user build, signed, selinux enforcing |
-| **kernel** | 5.10.260 |
+| **kernel** | linux 6.6.144 (`-onkar`) |
 | **firmware** | stock hyperos 2 ([details](docs/firmware.md)) |
-| **install** | fastboot or recovery |
+| **install** | fastboot or recovery, then ota updates in settings |
 | **google apps** | included |
-| **benchmarks** | geekbench 7: 810 / 2093, antutu 12: 685k ([details](docs/performance.md)) |
+| **benchmarks** | october (5.10) build: geekbench 7: 810 / 2093, antutu 12: 685k ([details](docs/performance.md)) |
 | **maintainer** | [once-human](https://github.com/once-human) |
 
 ## screenshots
@@ -54,12 +54,12 @@ flashed roms before? this is all you need. first time? follow the [full guide](d
 4. don't extract the zip, just run:
 
 ```bash
-fastboot -w update PixelOS_sky-17.0-20260930-1940-fastboot.zip
+fastboot -w update PixelOS_sky-17.0-20261118-2214-fastboot.zip
 ```
 
 reboots by itself. first boot takes 5 to 10 minutes.
 
-recovery instead? [sideload guide](docs/install-recovery.md). already on this rom? [updating](docs/updating.md).
+coming from the october (5.10) build? clean install, as above. recovery instead? [sideload guide](docs/install-recovery.md). already on this rom? [updating](docs/updating.md).
 
 ## docs
 
