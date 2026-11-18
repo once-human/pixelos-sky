@@ -6,7 +6,10 @@ this rom exists because of these people.
 
 | who | what |
 |---|---|
-| [topexguy](https://github.com/topexguy) | android 17 device tree, vendor and kernel for sky, the base of this rom |
+| venkat and the [xiaomi-ravelin](https://github.com/xiaomi-ravelin) team | the sm4450 linux 6.6 lineageos bring-up: device trees, the base since the november build |
+| suvojeet | the 6.6 kernel the nimbus kernel is built on |
+| [topexguy](https://github.com/topexguy) | android 17 device tree, vendor and kernel for sky (the october build), kernel watchdog and network fixes |
+| moinator856 | kernel panic logging (ramoops) |
 | lostark13 | base sky device tree |
 | [anonytry](https://github.com/anonytry) | hardware, dolby and vibrator |
 
