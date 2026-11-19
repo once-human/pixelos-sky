@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="releases/17/2026-11-banner.png" alt="pixelos 17 for sky, november 2026" width="100%">
+
 # pixelos for sky
 
 unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 12r**
