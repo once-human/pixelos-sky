@@ -8,7 +8,7 @@ newest on top.
 
 first build on linux 6.6. clean install needed when coming from the october build. [notes](releases/17/2026-11.md)
 
-- linux 6.6 kernel (`-onkar`) (was 5.10), qualcomm walt scheduler kept for battery
+- linux 6.6 kernel (was 5.10), qualcomm walt scheduler kept for battery
 - new device trees (lineageos-style sm4450 6.6 bring-up), hyperos 3 common blobs, sky os2.0.210 blobs and firmware
 - zram lz4 with zstd recompression, mglru, tuned dalvik heap and lmk, settings/systemui compiled ahead of time
 - faster boot, tcp bbr, lazy rcu

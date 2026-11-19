@@ -2,7 +2,7 @@
 
 first build on linux 6.6. coming from the october (5.10) build: clean install, this update can't be installed over it.
 
-- linux 6.6 kernel (`-onkar`), walt scheduler kept for battery
+- linux 6.6 kernel, walt scheduler kept for battery
 - new device trees, hyperos 3 common blobs, sky os2.0.210 blobs and firmware
 - smoother: zram lz4 + zstd recompression, mglru, tuned memory, faster boot
 - 90 hz, cutout and status bar set for sky

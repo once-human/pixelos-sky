@@ -47,7 +47,7 @@ m pixelos
 |---|---|
 | `device/xiaomi/sky` | [once-human/android_device_xiaomi_sky](https://github.com/once-human/android_device_xiaomi_sky/tree/seventeen) |
 | `device/xiaomi/sm4450-common` | [once-human/android_device_xiaomi_sm4450-common](https://github.com/once-human/android_device_xiaomi_sm4450-common/tree/seventeen) |
-| `kernel/xiaomi/sm4450` | [once-human/android_kernel_xiaomi_sm4450](https://github.com/once-human/android_kernel_xiaomi_sm4450/tree/seventeen) (linux 6.6, `-onkar`) |
+| `kernel/xiaomi/sm4450` | [once-human/android_kernel_xiaomi_sm4450](https://github.com/once-human/android_kernel_xiaomi_sm4450/tree/seventeen) (linux 6.6) |
 | `kernel/xiaomi/sm4450-modules` | [once-human/android_kernel_xiaomi_sm4450-modules](https://github.com/once-human/android_kernel_xiaomi_sm4450-modules/tree/seventeen) |
 | `kernel/xiaomi/sm4450-devicetrees` | [once-human/android_kernel_xiaomi_sm4450-devicetrees](https://github.com/once-human/android_kernel_xiaomi_sm4450-devicetrees/tree/seventeen) |
 | `hardware/xiaomi` | [once-human/android_hardware_xiaomi](https://github.com/once-human/android_hardware_xiaomi/tree/seventeen-6.6) |

@@ -24,7 +24,7 @@ unofficial pixelos for the **redmi 12 5g**, **poco m6 pro 5g** and **redmi note 
 | **build** | `17.0-20261118-2214` |
 | **devices** | redmi 12 5g, poco m6 pro 5g, redmi note 12r (`sky`), any region |
 | **type** | user build, signed, selinux enforcing |
-| **kernel** | linux 6.6.144 (`-onkar`) |
+| **kernel** | linux 6.6.144 |
 | **firmware** | stock hyperos 2 ([details](docs/firmware.md)) |
 | **install** | fastboot or recovery, then ota updates in settings |
 | **google apps** | included |
