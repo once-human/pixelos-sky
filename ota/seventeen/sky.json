@@ -1,0 +1,18 @@
+[
+  {
+    "datetime": 1795040041,
+    "files": [
+      {
+        "filename": "PixelOS_sky-17.0-20261118-2214.zip",
+        "os_patch_level": "2026-11-01",
+        "os_sdk_level": 37,
+        "sha256": "70d32c234ed92141eee31e0983789986e9ce34cae9a977829bf063d4178fb4cc",
+        "size": 2370010767,
+        "url": "https://sourceforge.net/projects/pixelos-sky/files/17/2026-11/PixelOS_sky-17.0-20261118-2214.zip",
+        "ota_property_files": "payload_metadata.bin:4835:153278,payload.bin:4835:2370001191,payload_properties.txt:2370006084:156,apex_info.pb:2278:1542,care_map.pb:3867:921,metadata:69:677,metadata.pb:814:1416                        "
+      }
+    ],
+    "type": "ci",
+    "version": "PixelOS_sky"
+  }
+]
